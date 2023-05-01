@@ -14,5 +14,3 @@ A place to summarize concepts used in the Data Structure and Algorithm.
 ##### Algorithm
 - [Search Algorithm](https://github.com/JoohanJin/DSA/tree/main/algorithm/search_algorithm)
 ***
-
-# TEST
