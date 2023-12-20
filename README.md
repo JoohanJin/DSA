@@ -7,7 +7,7 @@ A place to summarize concepts used in the Data Structure and Algorithm and prepa
 
 ### Contents of the Repository
 [Data Structure](https://github.com/JoohanJin/DSA/tree/main/data_structure)
-- [Array and String](https://github.com/JoohanJin/DSA/tree/main/data_structure/array)
+- [Array and String](https://github.com/JoohanJin/DSA/tree/main/data_structure/array_and_string)
 - [Linked List](https://github.com/JoohanJin/DSA/tree/main/data_structure/tree)
 - Tree
 - Binary Search Trees
