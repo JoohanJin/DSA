@@ -24,4 +24,4 @@
 - add(item): add an item to the end of teh list
 - remove(): remove the first item in the list
 - peek(): return the top of the queue
-- isEmpty(): 
+- isEmpty(): return true iff the queue is empty
