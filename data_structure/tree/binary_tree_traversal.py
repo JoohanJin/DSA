@@ -73,6 +73,8 @@ def post_order_traversal_recur(node: TreeNode):
     # while (dummy or stack):
     #     dummy = stack.pop() if (stack) else  None
     #     if dummy:
-    #         solution.insert(0, )
+    #         solution.insert(0, dummy.value)
+    #         if dummy.left: stack.append(dummy.left)
+    #         if dummy.right: stack.append(dummy.right)
     # return
     raise NotImplementedError
