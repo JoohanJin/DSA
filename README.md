@@ -1,6 +1,6 @@
 # Data Structure and Algorithm
 A place to summarize concepts used in the Data Structure and Algorithm and preparation for the competitive programming tactics.
-### Used Pragramming Lannguage: 
+### Used Pragramming Language: 
 - CPP for Efficient Implementation
 - Python for Fast Implementation
 ***
@@ -22,4 +22,9 @@ A place to summarize concepts used in the Data Structure and Algorithm and prepa
 - [Search Algorithm](https://github.com/JoohanJin/DSA/tree/main/algorithm/search_algorithm)
 - Sorting Algorithm
 - Graph Traversal
+<<<<<<< HEAD
 ***
+=======
+- 
+***
+>>>>>>> fd5a503ab4af3bebe5fec83f89999361eea95898
