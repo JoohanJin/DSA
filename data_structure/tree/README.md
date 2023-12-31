@@ -45,3 +45,24 @@ Two common tuypes of balanced trees are red-black trees and AVL trees.
 
 #### Post-Order Traversal
 - left -> right -> center
+
+***
+### Heap (Min-Heap and Max-Heap)
+- a complete binary tree (totally filled other than the rightmost elements on the last level) where each node is smaller (or larger) than its children.
+- The root is the minimum, for min-heap, or the maximum, for max-heap.
+#### Key Operations (only consider min-heap in this document, although max-heap operations are equivalent, except that the order is decsending order)
+- Insert
+    - always start by inserting the element at the bottom, i.e., insert new element at the right most spot so as to maintain the complete tree property.
+    - Now, fix the tree swapping the new element with its parent, until we find an appropriate sopt for the element, essentially bubble up the minimum element.
+- Extract Minimum Element
+    - it is always easy to find the minimum element, which is always at the top.
+    - How to remove?
+    - We remove the minimum element and swap it with the last element in the heap (the bottommost, rightmost element)
+    - Then bubble down the element, swapping it with one of its children until the min-heap property is restored.
+        - Do we swap the left child or the right child?
+        - Although there is no inherent ordering between the left and right element, the tree needs to take the smaller one in order to maintain the min-heap ordering.
+***
+### Tries
+- A variant of an n-ary tree in which characters are stored at each node.
+- Each path down the tree may represent a word.
+- The '*' nodes (null nodes) are often used to indicate complete words.

@@ -77,4 +77,5 @@ def post_order_traversal_recur(node: TreeNode):
     #         if dummy.left: stack.append(dummy.left)
     #         if dummy.right: stack.append(dummy.right)
     # return
+    # TODO: find the better method for post_order_traversal
     raise NotImplementedError

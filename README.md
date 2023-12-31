@@ -16,12 +16,10 @@ A place to summarize concepts used in the Data Structure and Algorithm and prepa
     - B-tree
     - B+-tree
     - AVL tree
-- Hash Table
-- Graphs
+- Graph
 
 ##### Algorithm
 - [Search Algorithm](https://github.com/JoohanJin/DSA/tree/main/algorithm/search_algorithm)
 - Sorting Algorithm
 - Graph Traversal
-- 
 ***
