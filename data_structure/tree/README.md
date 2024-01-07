@@ -66,3 +66,35 @@ Two common tuypes of balanced trees are red-black trees and AVL trees.
 - A variant of an n-ary tree in which characters are stored at each node.
 - Each path down the tree may represent a word.
 - The '*' nodes (null nodes) are often used to indicate complete words.
+
+### Graph
+- A collection of nodes with edges between (some of) them
+    - a tree is a connected graph without cycles
+- Graphs can be either directed or undirected. While directed edges are like a one-way street, undirected edges are like a two-way street.
+- The graph might consist of multiple isolated subgraphs. If there is a path between every pair of vertices, it is called a "connected graph"
+- The graph can also have cycles (or not). An "acyclic graph" is one without cycles.
+
+#### Adjacency List
+- The most common way to represent a graph
+- Every vertex (or nodes) stores a list of adjacnet vertices.
+- In an undirected graph, an edge, e.g., (a, b), would be stored twice: once in a's adjacent vertices and once in b's adjacent vertices.
+
+#### Adjacency Matrix
+- an N*N boolean matrix, 2d-array, where N is the number of nodes, where a true value at matrix[i][j] indicates an edge from node i to node j.
+    - or we can use 0s and 1s
+- In an undirected graph, an adjacency matrix will be symmetric
+- In a directed graph, it will not (necessarily) be.
+
+### Graph Search
+#### BFS (Breadth-First Search)
+- Using queue
+- start at the root (or another arbitrarily selected node) and explore each neighbor before going on to any of their children.
+    - traverse all the neighbors first.
+- If we want to find the shortest path (or just any path) between two nodes, BFS is more preferred
+
+#### DFS (Depth-Firt Search)
+- Using recursion (or stack)
+- start at the root (or another arbitrarily selected node) and explore each branch completely before moving on to the next branch.
+    - Traverse one complete branch
+- Pre-order, post-order, in-order traversal
+- Often preferred if we want to visit every node in the graph. Both of them are working fine, but DFS is simpler.
