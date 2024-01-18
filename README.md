@@ -6,25 +6,12 @@ A place to summarize concepts used in the Data Structure and Algorithm and prepa
 ***
 
 ### Contents of the Repository
-[Data Structure](https://github.com/JoohanJin/DSA/tree/main/data_structure)
-- [Array and String](https://github.com/JoohanJin/DSA/tree/main/data_structure/array_and_string)
-- [Linked List](https://github.com/JoohanJin/DSA/tree/main/data_structure/linkedList)
-- [Tree](https://github.com/JoohanJin/DSA/tree/main/data_structure/tree)
-    - Binary Search Trees
-    - Heap
-    - Tries
-    - B-tree
-    - B+-tree
-    - AVL tree
-- Graph
+#### Data Structure
+- ch1: [Array and String](https://github.com/JoohanJin/DSA/tree/main/01_array_and_string)
+- ch2: [Linked List](https://github.com/JoohanJin/DSA/tree/main/02_linked_list)
+- ch3: [Graph and Tree](https://github.com/JoohanJin/DSA/tree/main/04_tree_and_graph)
+
 
 ##### Algorithm
-- [Search Algorithm](https://github.com/JoohanJin/DSA/tree/main/algorithm/search_algorithm)
-- Sorting Algorithm
+- [Search and Sorting](https://github.com/JoohanJin/DSA/tree/main/10_sorting_and_searching)
 - Graph Traversal
-<<<<<<< HEAD
-***
-=======
-- 
-***
->>>>>>> fd5a503ab4af3bebe5fec83f89999361eea95898
