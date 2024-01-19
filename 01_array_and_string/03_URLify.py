@@ -7,6 +7,13 @@ and that you are given the "true" length of the string
 '''
 possible solution
 
+iterate through the string or char list until the true length
+get the length of the length of result string.
+
+iterate the string backward
+- if there is a space, then replace it to "%20"
+    - 
+- if it is just a character, then just copy and paste the character.
 '''
 # we have the buffer at the end of the stirng.
 def URLify(s: list[str], true_length: int):
@@ -15,7 +22,7 @@ def URLify(s: list[str], true_length: int):
         if (s[i] == " "):
             space_count += 1
     
-    length: int = true_length + (2 * space_count)
+    length: int = true_length + (2 * space_count) # or we can get the length of the output str or list by len() method
 
     for i in range(true_length - 1, -1, -1):
         if (s[i] == " "):
@@ -29,6 +36,6 @@ def URLify(s: list[str], true_length: int):
     return
 
 if __name__ == "__main__":
-    a = list("Mr John Smith    ")
+    a = list("HEHEHE HEHEHE  ")
     URLify(a, 13)
     print(a)
